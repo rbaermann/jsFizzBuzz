@@ -1,5 +1,5 @@
 function fizzBuzz(num) {
-    if(!num > 0) {
+    if(num <= 0 || !Number.isInteger(num)) {
         return null;
     }
     var string = "";
